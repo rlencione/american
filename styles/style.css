@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(243, 240, 240);
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+ol {
+    position: absolute; right: 40%; top: 35%;
+}
+
+li {
+    list-style-type: none; color: black;
+}
+
+h1.titlle {
+    color: blue; position: relative;
+}
+
+menu {
+    display:flex; list-style: none; padding: 0;
+    width: 650px; position: relative; height: 80px;
+
+}
+
+li {
+    flex-grow: 2;
+}
+
+button {
+    width: 100%;
+}
