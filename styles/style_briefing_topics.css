@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+}
+
+div.top {
+    padding: .01%; background-color: #0277cd; display: block;  margin: 50px auto; border-radius: 04px;
+}
+
+h1.top {
+    font-family: calibri; font-size: 40px; font-weight: bolder; color: #ffffff; 
+height: 50px; animation-name: ticker; animation-duration: 05s;
+
+}
+
+
+@keyframes ticker {
+    from{ right:auto    
+    }
+
+    to{ left:auto
+
+    }
+}

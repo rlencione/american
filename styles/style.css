@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(243, 240, 240);
+    background-color: #fffffd;
 }
 
 h2 {
@@ -11,7 +11,7 @@ p {
 }
 
 ol {
-    position: absolute; right: 40%; top: 35%;
+    position: absolute; right: 53%; top: 32%; text-transform: uppercase;
 }
 
 li {
@@ -22,10 +22,13 @@ h1.titlle {
     color: blue; position: relative;
 }
 
+div.figure {
+    background-color: rgb(142, 186, 243); width: 700px; height: 200px;
+}
+
 menu {
     display:flex; list-style: none; padding: 0;
     width: 650px; position: relative; height: 80px;
-
 }
 
 li {
