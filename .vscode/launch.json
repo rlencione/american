@@ -8,8 +8,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open american_home.html",
-            "file": "c:\\Users\\Eu\\Ruby\\american\\american_breifing topics.html"
+            "name": "AA_briefing.html",
+            "file": "C:\\Users\\Eu\\Informática\\american\\AA_briefing.html"
         }
     ]
 }
