@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+        <record>
+            <sequence>SP00</sequence>
+            <visitno>04</visitno>
+            <Workpackage>AC3</Workpackage>
+            <needcheckEffectivity>FAK</needcheckEffectivity>
+            <cardsalternatenumber>GRUPO 01</cardsalternatenumber>
+            <seq>01</seq>
+            <cards>GRUPO 01</cards>
+            <description>MONITOR;SPOTTER:</description>
+            <amt>1</amt>
+            <estimated>0,25</estimated>
+            <group>00</group>
+            <amtaccomplishing>ROSICLEIDE</amtaccomplishing>
+        </record>
+
+         <record>
+            <sequence>SP00</sequence>
+            <visitno>00 ALL</visitno>
+            <Workpackage>AC3</Workpackage>
+            <needcheckEffectivity>FAK</needcheckEffectivity>
+            <cardsalternatenumber>GRUPO 01</cardsalternatenumber>
+            <seq>01</seq>
+            <cards>GRUPO 01</cards>
+            <description>GROUP 01 (RECEIVING)</description>
+            <amt>1</amt>
+            <estimated>0,25</estimated>
+            <group>00</group>
+            <amtaccomplishing>ALVARO</amtaccomplishing>
+        </record>
+</root>
