@@ -5,27 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #celsius {
+            margin-left: 22px;
+        }
+    </style>
 </head>
 <!--dia 20/07/22 ainda não conseguia terminar o código-->
 <body>
-    <form>
-    Tempreture em Celsius: <input type="text" nome="temp_1" id="temp_1" value="">
-                           <input type="text" nome="resultado" placeholder="res" id="resultado">
-                           <button id="convert">enviar</button>
-   </form>
-    <script>
-    document.getElementById("convert").onclick = tempConvet;
 
-    function tempConvet(){
-        let celsius = document.getElementById("temp_1").value;
-        let fahrenheit = (celsius -32) * 1.8;
-        console.log(resultado)
-    }
-    document.getElementById("res").value;
-;
-    </script>    
-    
-    
+    </stilesheet>
+        <h1>Temperature Convert</h1>
+        
+        Celsius: <input type="number" id="celsius" placeholder="Celsius"  nome="c" value=""/><br></br>
+        Fahrenheit: <input type="number" id="fahrenheit" placeholder="Fahrenheit"  nome="f" value=""/><br></br>
+        <button id="convert">Convert</button>
+        <button id="reset"> Reset</button>
 
+   
+<script src ="american.js\toCelsius.js"></script>
 </body>
-</html>
+</html> 
+<!--dia 24/07/22 consegui terminar o código copiando-->
