@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--dia 20/07/22 ainda não conseguia terminar o código-->
+<body>
+    <form>
+    Tempreture em Celsius: <input type="text" nome="temp_1" id="temp_1" value="">
+                           <input type="text" nome="resultado" placeholder="res" id="resultado">
+                           <button id="convert">enviar</button>
+   </form>
+    <script>
+    document.getElementById("convert").onclick = tempConvet;
+
+    function tempConvet(){
+        let celsius = document.getElementById("temp_1").value;
+        let fahrenheit = (celsius -32) * 1.8;
+        console.log(resultado)
+    }
+    document.getElementById("res").value;
+;
+    </script>    
+    
+    
+
+</body>
+</html>

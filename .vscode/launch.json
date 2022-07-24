@@ -6,10 +6,10 @@
     "configurations": [
 
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
-            "name": "AA_briefing.html",
-            "file": "C:\\Users\\Eu\\Informática\\american\\AA_briefing.html"
+            "name": "AA_briefing_test.html",
+            "file": "AA_briefing_test.html"
         }
     ]
 }
